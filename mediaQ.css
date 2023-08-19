@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+    #navbar {
+        padding: 0;
+    }
+
+    .nav-list {
+        column-gap: 10px;
+        margin: 5px;
+        font-size: 1rem;
+    }
+
+    #navbar h4 {
+        font-size: 1.5rem;
+    }
+    #navbar a {
+        font-size: 1rem;
+    }
+
+    .intro h4 {
+        font-size: 0.8rem;
+    }
+
+    .intro h1 {
+        font-size: 1.2rem;
+    }
+    .c-hightlight {
+        font-size: 2rem;
+    }
+
+    #skill-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education-div {
+        font-size: 0.6rem;
+    }
+
+    .education-span {
+        font-size: 0.8rem;
+    }
+
+    #project-head {
+        font-size: 2rem;
+    }
+
+    .contact-grid {
+        flex-direction: column;
+    }
+}
