@@ -164,6 +164,7 @@ body {
 .interest-div {
     padding: 10px;
     font-size: 1rem;
+    padding-bottom: 50px;
 }
 
 #skills {
@@ -384,3 +385,25 @@ body {
     color: rgb(179, 179, 185);
 }
 /* contact end */
+
+/* -----------footer start----------- */
+
+footer {
+    background-color: #1d1e22;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 50px 0;
+
+    column-gap: 20px;
+}
+
+footer a {
+    /* text-decoration: none; */
+    color: goldenrod;
+}
+
+.footer-div {
+    color: silver;
+    font-family: var(--font-Inter);
+    font-size: 0.8rem;
+}
